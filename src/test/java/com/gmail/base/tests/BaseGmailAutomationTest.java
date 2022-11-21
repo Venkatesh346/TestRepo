@@ -182,7 +182,7 @@ protected WebDriver driver=null;
 				options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 
 				//options.setHeadless(isHeadless());
-				// options.addArguments("--no-sandbox");
+				options.addArguments("--no-sandbox");
 
 				webDriver = new ChromeDriver(options);
 
