@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+	<test name ="TestNG">
+		<!--<parameter>name ="browser" value="Chrome"</parameter> -->
+
+		<parameter name="browser" value="Chrome" />
+		<parameter name="siteURL" value="https://accounts.google.com/" />
+		
+		<classes>
+
+			<class name="com.gmail.base.tests.GmailLoginTest" />
+			
+		</classes>
+
+
+	</test>
+
+</suite>
